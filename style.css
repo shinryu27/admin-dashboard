@@ -69,3 +69,51 @@ svg {
     width: 48px;
     height: auto;
 }
+
+.header{
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+
+.header div {
+    color: black;
+}
+
+.header .top {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.top svg path {
+    fill: black;
+}
+.top svg {
+    width: 30px;
+    height: auto;
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 0.25fr 500px;
+    grid-template-rows: 30px;
+    align-content: center;
+
+}
+
+.search-bar {
+    border-radius: 20px;
+    background-color: #e2e8f0;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
